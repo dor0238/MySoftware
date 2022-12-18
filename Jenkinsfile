@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('click') {
             steps {
-                sh 'click.py'
+                sh 'python click.py'
             }
         }
                 stage('Welcome') {
             steps {
-                sh 'welcome.py'
+                sh 'python welcome.py'
             }
         }
     }
